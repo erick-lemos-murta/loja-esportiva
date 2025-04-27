@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+.navbar {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu a {
+    margin-right: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu .outlet {
+    color: red;
+}
+.user-options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user-options input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
