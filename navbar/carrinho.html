@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="css/style_header.css">
+    <link rel="stylesheet" href="css/carrinho.css">
+</head>
+<body>
+     <nav class="navbar">
+        <div class="menu">
+            <a href="../index.html">HOME</a>
+            <a href="../menu/calcados.html"">CALÇADOS</a>
+            <a href="../menu/mulher.html">MULHER</a>
+            <a href="../menu/homem.html">HOMEM</a>
+            <a href="../menu/infantil.html">INFANTIL</a>
+            <a href="../menu/infantil.html">ESPORTES</a>
+            <a href="../menu/esportes.html">MUNDO ADIDAS</a>
+            <a href="../menu/outlet.html">OUTLET</a>
+        </div>
+        <div class="user-options">
+            <input type="text" placeholder="Procurar">
+            <a href="../navbar/usuario.html">👤</a>
+            <a href="../navbar/ajuda.html">📞</a>
+            <a href="../navbar/carrinho.html">🛒</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="cart">
+            <h1>Meu carrinho</h1>
+            <div class="cart-box">
+                <div class="cart-item">
+                    <img src="../imagens/adidas01.png" alt="Tênis Adidas VL Court 2.0">
+                    <div class="item-info">
+                        <h2>Tênis Adidas VL Court 2.0</h2>
+                        <p>Ref: # JD8-7092-010-38</p>
+                        <p>Vendido e entregue por Adidas</p>
+                        <p>Tamanho: 38</p>
+                        <p>Cor: Branco</p>
+                        <div class="quantidade">
+                            <button>-</button>
+                            <input type="text" value="1" readonly>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <button class="remover-item" title="Remover item">🗑️</button>
+                </div>
+                <div class="frete">
+                    <h3>Consultar frete e prazo de entrega</h3>
+                    <input type="text" placeholder="CEP">
+                    <button>Consultar</button>
+                    <a href="#">Não sei meu CEP</a>
+                </div>
+                <div class="item-preco">
+                    <span class="preco-antigo">R$ 699,99</span>
+                    <span class="desconto">-28% OFF</span>
+                    <span class="preco-pix">R$ 474,99 no Pix</span>
+                    <span class="preco-atual">ou R$ 499,99</span>
+                </div>
+                <a href="../index.html">Explorar mais itens desta loja</a>
+            </div>
+        </section>
+        <aside class="sumario">
+            <h2>Resumo da compra</h2>
+            <div class="box-sumario">
+                <div class="sumario-linha">
+                    <span>Subtotal (1 item)</span>
+                    <span>R$ 499,99</span>
+                </div>
+                <div class="sumario-linha">
+                    <span>Cupom de desconto</span>
+                    <a href="#">Adicionar</a>
+                </div>
+                <div class="sumario-linha total">
+                    <span>Valor total</span>
+                    <span>
+                        <strong>R$ 474,99 no Pix</strong><br>
+                        <small>ou R$ 499,99 em até 10x de R$ 50,00 sem juros</small>
+                    </span>
+                </div>
+                <div class="economia">
+                    <span>💲 Você está economizando <strong>R$ 225,00</strong></span>
+                </div>
+                <div class="ncard">
+                    <img src="https://cdn-icons-png.flaticon.com/512/633/633611.png" alt="N Card" width="24">
+                    <span>Utilize o N Card e pague R 499,95 em até 15x</span>
+                </div>
+                <button class="finalize">Finalizar</button>
+                <button class="mais-produtos">Escolher mais produtos</button>
+                <div class="seguro">🔒 COMPRA SEGURA</div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
