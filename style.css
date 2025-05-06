@@ -99,6 +99,8 @@ body {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     border-radius: 8px;
     text-align: center;
+    text-decoration: none;
+    color: #000;
 }
 
 .produto img {
